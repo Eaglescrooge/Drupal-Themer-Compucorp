@@ -1,0 +1,558 @@
+
+	@charset "utf-8";
+	/* CSS Document */
+	
+	*{
+		box-sizing:border-box;
+
+	}
+	body {
+		font-family:Arial, Helvetica, sans-serif;
+		color:#333;
+		font-size:100%;
+	}
+
+	.display-center{
+		max-width:90%;
+		margin: 0px auto;
+	}
+
+	.row::after{
+		content:"";
+		clear:both;
+		display: table;
+	}
+
+	[class*="col-"] {
+		float:left;
+		padding:15px;
+	}
+
+	#navbar{padding:15px;
+	}
+
+	ul{
+		list-style-type:none;
+		padding:0;
+		margin:0;
+		overflow:hidden;
+		font-size:14px;
+		position:relative;
+		right:-90px;
+
+
+	}
+	ul li{
+			float:left;
+	}
+
+	ul li a{
+			text-decoration:none;
+			padding:14px 16px;
+			color:black;
+			font-weight:550;
+			line-height:35px;
+	}
+
+	.join{
+			border:2px solid skyblue;
+			padding:12px 20px;
+			border-radius:3px;
+			color:white;
+			border-radius: 10px;
+			background-color:skyblue;
+	}
+	@media only screen and (max-width: 320px){
+		#banner #share{
+				text-align:center;
+				font-size:1.75em !important;
+				font-weight:lighter;
+		}
+		#banner p{
+				text-align:center;
+				font-size:0.7em !important;
+				color:white;
+		}
+		.col-6 h5{
+				text-align:center;
+				font-size:0.7em !important;
+				color:black;
+		}
+		.register a{
+					text-decoration:none;
+					font-size:0.7em !important;
+					color:white;
+
+		}
+		.register{
+			border:2px solid skyblue;
+			text-align:center;
+			background-color:skyblue;
+			border-radius:3px;
+			color:skyblue;
+			margin-top:15px;
+			width:120px;
+			height:30px;
+		}
+
+		#meet img{
+			width:90px;
+			height:90px;
+		}
+		#slack img{
+			width:90px;
+			height:90px;
+		}
+		#share img{
+			width:90px;
+			height:90px;
+		}
+		#getdiv h2{
+			text-align:center;
+			font-size:1.2em !important;
+			color:black;
+		}
+		#getdiv #meet h4{
+			text-align:center;
+			font-size:0.85em !important;
+			color:black;
+		}
+		#getdiv #slack h4{
+			text-align:center;
+			font-size:0.85em !important;
+			color:black;
+		}
+		#getdiv #share h4{
+			text-align:center;
+			font-size:0.85em !important;
+			color:black;
+		}
+		#getdiv .display-center .col-4{
+			margin:0 auto;
+			height:auto;
+			width:100%;
+		}
+
+
+		#our_mission .display-center .vis #charities{
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%;
+		}
+		#our_mission .display-center .vis #together {
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%;
+		}
+		#our_mission .display-center .vis #encourage{
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%;
+		}
+	}
+	@media only screen and (max-width: 375px){
+		#banner #share{
+			text-align:center;
+			font-size:2em !important;
+			font-weight:lighter;
+		}
+		#banner p{
+			text-align:center;
+			font-size:0.7em !important;
+			color:white;
+		}
+		.col-6 h5{
+			text-align:center;
+			font-size:0.7em !important;
+			color:black;
+		}
+		.register a{
+			text-decoration:none;
+			font-size:0.7em !important;
+			color:white;
+
+		}
+		.register{
+			border:2px solid skyblue;
+			text-align:center;
+			background-color:skyblue;
+			border-radius:3px;
+			color:skyblue;
+			margin-top:15px;
+			width:120px;
+			height:30px;
+		}
+		#meet img{
+			width:70px;
+			height:70px;
+		}
+		#slack img{
+			width:70px;
+			height:70px;
+		}
+		#share img{
+			width:70px;
+			height:70px;
+		}
+		#getdiv .display-center .col-4{
+			margin:0 auto;
+			height:auto;
+			width:100%
+
+		}
+		#getdiv h2{
+			text-align:center;
+			font-size:0.8em !important;
+			color:black;
+		}
+
+
+		#our_mission .display-center .vis #charities{
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%
+		}
+		#our_mission .display-center .vis #together {
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%
+		}
+		#our_mission .display-center .vis #encourage{
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%
+		}
+
+	}
+	@media only screen and (max-width: 425px){
+
+		#banner #share{
+			text-align:center;
+			font-size:2em !important;
+			font-weight:lighter;
+		}
+		#banner p{
+			text-align:center;
+			font-size:0.7em !important;
+			color:white;
+		}
+		.col-6 h5{
+			text-align:center;
+			font-size:0.7em !important;
+			color:black;
+		}
+		#meet img{
+			width:70px;
+			height:70px;
+		}
+		#slack img{
+			width:70px;
+			height:70px;
+		}
+		#share img{
+			width:70px;
+			height:70px;
+		}
+		#our_mission{
+			margin-top:20px;
+		}
+
+		#our_mission h2{
+			font-size:1.5em !important;
+		}
+
+		.display-center .col-5 ul li{
+			text-align:center;
+			margin:0 auto;
+		}
+
+		#getdiv .display-center .col-4{
+			margin:0 auto;
+			height:auto;
+			width:100%
+
+		}
+
+
+		#our_mission .display-center .vis #charities{
+		float:none;
+		margin:50px auto;
+		height:auto;
+		width:100%
+		}
+		#our_mission .display-center .vis #together {
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%
+		}
+		#our_mission .display-center .vis #encourage{
+			float:none;
+			margin:50px auto;
+			height:auto;
+			width:100%
+		}
+
+		#research,
+		#compucorp
+		#kop, 
+		#zing, 
+		#comic{
+			float:none;
+		}
+
+
+	}
+	@media only screen and (max-width: 400px){
+
+	 .diplay-center {
+		 max-width:100%;
+	 }
+
+	 [class*="col-"], ul li{
+		 width:100%;
+		 float:none;
+	 }
+	}
+
+
+	@media only screen and (min-width: 768px){
+
+
+		#meet img{
+			width:70px;
+			height:70px;
+		}
+		#slack img{
+			width:70px;
+			height:70px;
+		}
+		#share img{
+			width:70px;
+			height:70px;
+		}
+		#meet h4{
+			font-size:16px;
+		}
+		#together{
+			height: 240px;
+		}
+		#get-p{
+			 padding-bottom: 20px;
+		}
+		#research img{
+			width:90px;
+			margin-top:15px;
+		}
+
+		#compucorp img{
+			width:140px;
+			height:50px;
+			margin-top:10px;
+			padding-right:50px; !important;
+		}
+		#kop img{
+			width:90px;
+			height:40px;
+			margin-top:15px;
+		}
+		#zing img{
+			width:70px;
+			height:70px;
+			margin-top:-0px;
+		}
+		#comic img{
+			width:70px;
+			height:70px;
+			margin-top:-0px;
+		}
+
+
+		.col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+
+	}
+	@media only screen and (min-width: 1024px){
+		#getdiv .col-4 #unique{
+			padding-top:20px;
+		}
+		#our_mission .col-4{
+			height:220px;
+		}
+		#research img{
+			width:90px;
+			margin-top:15px;
+		}
+
+		#compucorp img{
+			width:140px;
+			height:50px;
+			margin-top:10px;
+			padding-right:20px;
+		}
+		#kop img{
+			width:90px;
+			height:40px;
+			margin-top:15px;
+		}
+		#zing img{
+			width:70px;
+			height:70px;
+			margin-top:-0px;
+		}
+		#comic img{
+			width:70px;
+			height:70px;
+			margin-top:-0px;
+		}
+
+	 /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+	}
+	#banner{
+			background-image:url(../Assets/Images/hero.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	padding-top:5px;
+	}
+
+	#banner #share{
+			font-size:60px;
+			font-weight:lighter;
+	}
+	#banner p{
+			text-align:center;
+			color:white;
+	}
+
+
+	.register{
+			border:2px solid skyblue;
+			text-align:center;
+			background-color:skyblue;
+			border-radius:3px;
+			color:skyblue;
+			margin-top:15px;
+
+
+	}
+
+	.register a{
+				text-decoration:none;
+				color:white;
+	}
+
+
+	#getdiv .display-center{
+							text-align:center;
+							margin:0 auto;
+	}
+	#getdiv .display-center a{
+								border:1px solid skyblue;
+							  background-color:white;
+							  text-align:center;
+							  text-decoration:none;
+							  padding:5px 20px;
+							  color:skyblue;
+		}
+	#our_mission .display-center{
+							text-align:center;
+							margin:0 auto;
+	}
+
+	#our_mission{
+		background-color:#D3D3D3;
+	}
+	.col-4{
+		background-color:white;
+	}
+
+	#our_mission .img {
+			margin-top: -50px;
+			border-radius: 100%;
+			border: 10px solid white;
+		}
+
+	@our_mission .header {
+		text-align: center;
+		margin: auto;
+		display: block;
+
+	}
+	#our_mission .display-center #charities, #together, #encourage{
+		float:left;
+	}
+	.col-12 h5{
+		padding-bottom:35px;
+	}
+	#our_mission{
+		background-color:#F4F4F4;
+	}
+	.vis{
+		margin:0 10px 100px 10px
+	}
+	.col-4{
+		margin:0 1.6666666666666666666666666666667%;
+			width: 30%;
+			border-radius:7px;
+	}
+	.vis {
+		outline: 1px solid hidden;
+	}
+
+	.clearfix:after {
+		content: "";
+		display: block;
+		clear: both;
+		}
+	 .col-3  img{
+		 margin-top:15px;
+	 }
+	 .col-2  img{
+		 margin-top:25px;
+	 }
+	#blog .display-center {
+		text-align:center;
+		margin:0 auto;
+	}
+	#blog .col-3 {
+		text-align:left;
+	}
+
+	#footer{
+		background-color:#069;
+	}
+	#footer .display-center p{
+		text-align:center;
+		padding-top:20px;
+		color:white;
+	}

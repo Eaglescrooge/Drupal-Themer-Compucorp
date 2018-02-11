@@ -1,0 +1,9 @@
+name: compucorp
+description: Drupal 8 theme
+type: theme
+core: 8.x
+libraries:
+  - compucorp/global-css
+
+stylesheets-remove:
+    - sites/default/files/css/css_Cq6GZMKk1r9hD6Tpeso65Tb4UrBQbPvUhNvc2pJ21KY.css
